@@ -1,0 +1,18 @@
+server:
+  port: 8080
+---
+spring:
+  config:
+    active:
+      on-profile: test
+server:
+  port: 4000
+welcomeMsg: Bienvenido!
+---
+spring:
+  config:
+    active:
+      on-profile: prod
+server:
+  port: 5000
+welcomeMsg: Bienvenu!

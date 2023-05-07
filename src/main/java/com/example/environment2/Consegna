@@ -1,0 +1,12 @@
+creare un'applicazione Spring Bootusing Spring Initializrche abbia le seguenti dipendenze:
+- Lombok
+- Spring Boot DevTools
+- Spring Web
+
+definire un application.yaml file di configurazione in cui si impostano 3 ambienti:
+- un ambiente chiamato test che viene eseguito sulla porta 4000 e che ha la proprietà welcomeMsg impostata su Hello from Test
+- un ambiente chiamato prod che viene eseguito sulla porta 5000 e che ha la proprietà welcomeMsg impostata su Hello form Prod
+
+eseguire entrambi gli ambienti, osservando la modifica del valore restituito da un controller
+
+ricorda di aggiungere l'opzione VM:-Dspring.profiles.active=[enter_here_the_profile_name]
